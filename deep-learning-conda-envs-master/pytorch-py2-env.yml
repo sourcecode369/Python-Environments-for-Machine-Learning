@@ -1,0 +1,25 @@
+name: pytorch-py2-env
+channels: 
+  - conda-forge
+  - ioam
+  - soumith
+dependencies:
+  - python=2.7
+  - numpy
+  - mkl
+  - holoviews
+  - jupyter
+  - pandas
+  - matplotlib
+  - seaborn
+  - pytorch
+  - torchvision
+  - cuda80
+  - pip:
+    - tqdm
+    - pillow
+    - packaging
+    - appdirs
+    - holoviews
+    - gpustat
+    - sklearn
